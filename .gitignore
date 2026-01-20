@@ -1,0 +1,20 @@
+# RStudio / R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# renv
+renv/library/
+renv/staging/
+renv/local/
+
+# Large data outputs (keep raw data out of Git)
+data/raw/
+data/processed/
+
+# Results (optional: you can choose to track figures)
+# results/
+
+# OS
+.DS_Store
