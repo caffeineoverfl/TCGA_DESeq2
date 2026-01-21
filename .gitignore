@@ -18,3 +18,5 @@ data/processed/
 
 # OS
 .DS_Store
+results/tables/tcga_brca_dds.rds
+results/tables/tcga_luad_dds.rds
