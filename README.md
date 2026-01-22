@@ -25,16 +25,34 @@ This project aims to:
 
 ---
 
-## Key Results
+## Results
 
-### PCA (VST-normalized expression)
-- Clear separation between tumor and normal samples in both BRCA and LUAD
-- Tumor samples show increased heterogeneity, consistent with cancer biology
+### TCGA-BRCA
 
-### Differential Expression
-- Thousands of genes significantly differentially expressed (adjusted p < 0.05)
-- Strong and symmetric up- and down-regulation patterns visible in volcano plots
-- Results are consistent across cancer types, demonstrating robustness
+**PCA (VST-normalized expression)**  
+Tumor and normal samples separate along the first principal component, indicating
+strong global transcriptional differences.
+
+![TCGA BRCA PCA](results/figures/tcga_brca_pca.png)
+
+**Volcano plot (tumor vs normal)**  
+Thousands of genes show significant differential expression (FDR < 0.05).
+
+![TCGA BRCA Volcano](results/figures/tcga_brca_volcano.png)
+
+---
+
+### TCGA-LUAD
+
+**PCA (VST-normalized expression)**  
+Clear separation between tumor and normal samples with lower normal-tissue variability.
+
+![TCGA LUAD PCA](results/figures/tcga_luad_pca.png)
+
+**Volcano plot (tumor vs normal)**  
+Strong and symmetric differential expression patterns across the transcriptome.
+
+![TCGA LUAD Volcano](results/figures/tcga_luad_volcano.png)
 
 ---
 
