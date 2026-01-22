@@ -20,3 +20,16 @@ data/processed/
 .DS_Store
 results/tables/tcga_brca_dds.rds
 results/tables/tcga_luad_dds.rds
+
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Binary R objects
+*.rds
+
+# Recount3 cache (just in case)
+.recount3/
+.cache/
+
