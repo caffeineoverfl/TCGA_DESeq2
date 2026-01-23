@@ -38,7 +38,10 @@ install.packages(c(
   "readr",
   "tibble"
 ))
-
+```
+However you can also install the packages using renv:
+```r
+renv::restore()
 ```
 
 ## Running the Analysis
